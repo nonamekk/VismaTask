@@ -1,0 +1,56 @@
+[ {
+"guid": "99",
+"name": "66",
+"author": "wow",
+"category": "test",
+"language": "asd",
+"publication_date": "as1d",
+"isbn": "444",
+"taken_by": "555",
+"taken_at": "2021-09-22T16:40:39.142152491",
+"rent_period": "56"
+},{
+"guid": "2",
+"name": "2",
+"author": "howtodoinjava.com",
+"category": "test",
+"language": "asd",
+"publication_date": "999",
+"isbn": "444",
+"taken_by": "null",
+"taken_at": "null",
+"rent_period": "null"
+},{
+"guid": "3",
+"name": "2",
+"author": "howtodoinjava.com",
+"category": "test",
+"language": "asd",
+"publication_date": "999",
+"isbn": "444",
+"taken_by": "null",
+"taken_at": "null",
+"rent_period": "null"
+},{
+"guid": "E01",
+"name": "1",
+"author": "howtodoinjava.com",
+"category": "test",
+"language": "asd",
+"publication_date": "999",
+"isbn": "444",
+"taken_by": "null",
+"taken_at": "null",
+"rent_period": "null"
+},{
+"guid": "29",
+"name": "66",
+"author": "wow",
+"category": "test",
+"language": "asd",
+"publication_date": "as1d",
+"isbn": "444",
+"taken_by": "",
+"taken_at": "",
+"rent_period": ""
+} ]

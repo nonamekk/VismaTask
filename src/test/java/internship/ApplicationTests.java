@@ -73,7 +73,7 @@ class ApplicationTests {
     }
 
     @Test
-    void bookIsTakenSuccessfullyWithSecondTryAndDelete() {
+    void bookIsTakenSuccessfullyAndDelete() {
         Data book = new Data("1000", "100","100", "100","100", "100","100" );
         String bookGuid = DataGrab.saveNewBook(book);
 

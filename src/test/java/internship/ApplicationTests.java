@@ -14,16 +14,24 @@ import static org.junit.Assert.*;
 class ApplicationTests {
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
     void bookIsSavedAndDeleted() {
         Data book = new Data("100", "100","100", "100","100", "100","100" );
         String savedGuid = DataGrab.saveNewBook(book);
         String setGuid = book.getGuid();
 
         assertEquals(savedGuid, setGuid);
+        book = DataGrab.getBy("100");
+        assertEquals(book.getGuid().equals(""), false);
+        assertEquals(book.getName().equals(""), false);
+        assertEquals(book.getAuthor().equals(""), false);
+        assertEquals(book.getCategory().equals(""), false);
+        assertEquals(book.getLanguage().equals(""), false);
+        assertEquals(book.getIsbn().equals(""), false);
+        assertEquals(book.getPublication_date().equals(""), false);
+
+        assertEquals(book.getTaken_at().equals(""), true);
+        assertEquals(book.getTaken_by().equals(""), true);
+        assertEquals(book.getRent_period().equals(""), true);
 
         DataGrab.delete(book);
         assertEquals(DataGrab.getBy(setGuid), null);

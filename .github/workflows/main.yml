@@ -25,4 +25,6 @@ jobs:
         run: mvn -B clean package -DskipTests
       - name: Maven Verify
         run: mvn -B clean verify
+      - name: Running Test Class
+        run: mvn -Dtest=ApplicationTests test
 
